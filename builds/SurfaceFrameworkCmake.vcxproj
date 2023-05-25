@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E2EF02DB-D8DC-3F2D-92EE-A2E88A21F7E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SurfaceFrameworkCmake</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectName)</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GeometryLab\DGP_HW\builds\Release\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SurfaceFrameworkCmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GeometryLab\DGP_HW;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GeometryLab\DGP_HW\builds;D:\GeometryLab\DGP_HW;D:\GeometryLab\DGP_HW\builds\SurfaceFrameworkCmake_autogen\include_Debug;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GeometryLab\DGP_HW\builds;D:\GeometryLab\DGP_HW;D:\GeometryLab\DGP_HW\builds\SurfaceFrameworkCmake_autogen\include_Debug;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target SurfaceFrameworkCmake</Message>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5OpenGLd.lib;opengl32.lib;glu32.lib;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5Guid.lib;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>
+      </ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)$(Platform)\$(Configuration)\</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\GeometryLab\DGP_HW\builds;D:\GeometryLab\DGP_HW;D:\GeometryLab\DGP_HW\builds\SurfaceFrameworkCmake_autogen\include_Release;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\GeometryLab\DGP_HW\builds;D:\GeometryLab\DGP_HW;D:\GeometryLab\DGP_HW\builds\SurfaceFrameworkCmake_autogen\include_Release;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\GeometryLab\DGP_HW\builds;D:\GeometryLab\DGP_HW;D:\GeometryLab\DGP_HW\builds\SurfaceFrameworkCmake_autogen\include_Release;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtGui;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtCore;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC and UIC for target SurfaceFrameworkCmake</Message>
+      <Command>setlocal
+cd D:\GeometryLab\DGP_HW\builds
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/GeometryLab/DGP_HW/builds/CMakeFiles/SurfaceFrameworkCmake_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\bin\windeployqt.exe D:/GeometryLab/DGP_HW/builds/Release/SurfaceFrameworkCmake.exe --release --qmldir D:/GeometryLab/DGP_HW/surface_framework_cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5OpenGL.lib;opengl32.lib;glu32.lib;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5.12.12\5.12.12\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/GeometryLab/DGP_HW/builds/Release/SurfaceFrameworkCmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/GeometryLab/DGP_HW/builds/Release/SurfaceFrameworkCmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\qt_moc\moc_InteractiveViewerWidget.cpp" />
+    <ClCompile Include="..\qt_moc\moc_MainViewerWidget.cpp" />
+    <ClCompile Include="..\qt_moc\moc_MeshParamWidget.cpp" />
+    <ClCompile Include="..\qt_moc\moc_MeshViewerWidget.cpp" />
+    <ClCompile Include="..\qt_moc\moc_QGLViewerWidget.cpp" />
+    <ClCompile Include="..\qt_moc\moc_surfacemeshprocessing.cpp" />
+    <ClCompile Include="..\qt_res\qrc_surfacemeshprocessing.cpp" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MainViewerWidget.cpp" />
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MainViewerWidget.h" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshParamWidget.cpp" />
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshParamWidget.h" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\main.cpp" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\surfacemeshprocessing.cpp" />
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\surfacemeshprocessing.h" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\InteractiveViewerWidget.cpp" />
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\InteractiveViewerWidget.h" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshViewerWidget.cpp" />
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshViewerWidget.h" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\QGLViewerWidget.cpp" />
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\QGLViewerWidget.h" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\IOManger.cpp" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\PolyMesh.cpp" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\PolyMeshIterators.cpp" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\PolyMesh_Base.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

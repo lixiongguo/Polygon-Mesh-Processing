@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\main.cpp" />
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\InteractiveViewerWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MainViewerWidget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\surfacemeshprocessing.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshParamWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\MeshViewer\QGLViewerWidget.cpp">
+      <Filter>MeshViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\PolyMeshIterators.cpp">
+      <Filter>PolyMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\PolyMesh.cpp">
+      <Filter>PolyMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\PolyMesh_Base.cpp">
+      <Filter>PolyMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\GeometryLab\DGP_HW\src\PolyMesh\IOManger.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_moc\moc_InteractiveViewerWidget.cpp">
+      <Filter>Qt_Moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_moc\moc_MainViewerWidget.cpp">
+      <Filter>Qt_Moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_moc\moc_MeshParamWidget.cpp">
+      <Filter>Qt_Moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_moc\moc_MeshViewerWidget.cpp">
+      <Filter>Qt_Moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_moc\moc_QGLViewerWidget.cpp">
+      <Filter>Qt_Moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_moc\moc_surfacemeshprocessing.cpp">
+      <Filter>Qt_Moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qt_res\qrc_surfacemeshprocessing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\InteractiveViewerWidget.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MainViewerWidget.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\surfacemeshprocessing.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshParamWidget.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\MeshViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\GeometryLab\DGP_HW\src\MeshViewer\QGLViewerWidget.h">
+      <Filter>MeshViewer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{FFF202AF-ED11-3F7F-9472-F634A19FB4C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshViewer">
+      <UniqueIdentifier>{D116A123-1A8A-3706-A165-B39FA91F316B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PolyMesh">
+      <UniqueIdentifier>{A886334B-FDAA-35E5-AF58-C4B5311FA934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt_Moc">
+      <UniqueIdentifier>{18C14DE8-8088-3B13-A215-F733EC63244B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

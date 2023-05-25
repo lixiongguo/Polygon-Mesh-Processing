@@ -1,0 +1,9 @@
+builds/x64
+builds/.vs
+
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
